@@ -25,6 +25,7 @@ data = json.dumps({
 
 response = requests.post(url, headers=headers, data=data)
 data1 = response.json()
+print(data1)
 
 with open("数据.json", "w", encoding="utf-8") as f:
     json.dump(data1, f, indent=2, ensure_ascii=False)
