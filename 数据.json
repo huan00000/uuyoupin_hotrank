@@ -1,0 +1,307 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "timestamp": 1776694344107,
+  "data": [
+    {
+      "templateName": "AK-47 | 安全网 (崭新出厂)",
+      "templateId": "44220",
+      "iconUrl": "https://youpin.img898.com/csgo/template/14270a076ec24e94b6965aa7d57b4354.png",
+      "price": "¥191",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "MP7 | 渐变之色 (崭新出厂)",
+      "templateId": "5473",
+      "iconUrl": "https://youpin.img898.com/csgo/template/430da880b09e468abfc6b893bc4ae00c.png",
+      "price": "¥264",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "USP 消音版 | 次时代 (崭新出厂)",
+      "templateId": "228",
+      "iconUrl": "https://youpin.img898.com/csgo/template/5f2f18d9f92348a7bcdb674ebadca2a3.png",
+      "price": "¥127.9",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "海军上尉里克索尔 | 海军水面战中心海豹部队",
+      "templateId": "215",
+      "iconUrl": "https://youpin.img898.com/csgo/template/c17e376b5dc042ffa2100a5789381592.png",
+      "price": "¥205",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "MP7 | 卷云 (崭新出厂)",
+      "templateId": "544",
+      "iconUrl": "https://youpin.img898.com/csgo/template/37dbf4445c154421b94a417871895e7f.png",
+      "price": "¥164",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "格洛克 18 型 | 核子花园 (崭新出厂)",
+      "templateId": "2302",
+      "iconUrl": "https://youpin.img898.com/csgo/template/18f26492d7ef41ee8b0ea9cfa8aae27e.png",
+      "price": "¥209.5",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "M4A1消音版 | 氮化处理 (崭新出厂)",
+      "templateId": "43642",
+      "iconUrl": "https://youpin.img898.com/csgo/template/9d7cbfce57674922b350dec09f4a6191.png",
+      "price": "¥155",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AK-47 | 红线 (久经沙场)",
+      "templateId": "1414",
+      "iconUrl": "https://youpin.img898.com/csgo/template/b3103b2cbf0047c690397e3111a71e51.png",
+      "price": "¥222.9",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AWP | 复古流行 (崭新出厂)",
+      "templateId": "61675",
+      "iconUrl": "https://youpin.img898.com/csgo/template/70e789c7e6c24cf98b263688924df866.png",
+      "price": "¥421",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "M4A4 | 齿仙 (崭新出厂)",
+      "templateId": "37151",
+      "iconUrl": "https://youpin.img898.com/csgo/template/6b80b77fd495427eb9b8fdf5f7fc5d28.png",
+      "price": "¥139",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AWP | 死神 (崭新出厂)",
+      "templateId": "2611",
+      "iconUrl": "https://youpin.img898.com/csgo/template/ded3d4ad2983417e93687a850754c3eb.png",
+      "price": "¥159.5",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "残酷的达里尔爵士（聒噪）| 专业人士",
+      "templateId": "7548",
+      "iconUrl": "https://youpin.img898.com/csgo/template/7aad600ec0ce4d5e96c797e3d0e7f0a3.png",
+      "price": "¥502",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "沙漠之鹰 | 古铜密码 (崭新出厂)",
+      "templateId": "12697",
+      "iconUrl": "https://youpin.img898.com/csgo/template/668ce2e258d5496bb5b758a27b381deb.png",
+      "price": "¥106",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "法玛斯 | 线路故障 (崭新出厂)",
+      "templateId": "61831",
+      "iconUrl": "https://youpin.img898.com/csgo/template/a91a404e989743ccab2c336850b7b185.png",
+      "price": "¥119.88",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "M4A1消音版 | 血虎 (崭新出厂)",
+      "templateId": "44099",
+      "iconUrl": "https://youpin.img898.com/csgo/template/b77663f2c1b04fb5847e9496603a7f7d.png",
+      "price": "¥228",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "法玛斯 | 机械工业 (崭新出厂)",
+      "templateId": "34694",
+      "iconUrl": "https://youpin.img898.com/csgo/template/05cd7e67a6b34f838747a6ea587963f1.png",
+      "price": "¥590.88",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "指挥官 梅 “极寒” 贾米森 | 特警",
+      "templateId": "44360",
+      "iconUrl": "https://youpin.img898.com/csgo/template/8354b7cd8fea4891aa3776f257d6318e.png",
+      "price": "¥200",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AK-47 | 钢铁三角洲 (崭新出厂)",
+      "templateId": "103524",
+      "iconUrl": "https://youpin.img898.com/csgo/template/4484b80a7d6b4150a222cc426a177f67.png",
+      "price": "¥183.99",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "沙漠之鹰 | 书法涂鸦 (崭新出厂)",
+      "templateId": "109898",
+      "iconUrl": "https://youpin.img898.com/csgo/template/7d6de3b088d341a084e99349f1059693.png",
+      "price": "¥124",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AWP | 尼罗河沃土 (崭新出厂)",
+      "templateId": "103566",
+      "iconUrl": "https://youpin.img898.com/csgo/template/3dce8be7b06f4e89bb4f320eca035732.png",
+      "price": "¥267",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "沙漠之鹰 | 印花集 (久经沙场)",
+      "templateId": "1644",
+      "iconUrl": "https://youpin.img898.com/csgo/template/96295821382547d0b209e63fbc5084f1.png",
+      "price": "¥259",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "USP 消音版 | 印花集 (久经沙场)",
+      "templateId": "102294",
+      "iconUrl": "https://youpin.img898.com/csgo/template/e7f367b3c5d449839999ddeb494eab4c.png",
+      "price": "¥270",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "法玛斯 | 加州迷彩 (崭新出厂)",
+      "templateId": "61665",
+      "iconUrl": "https://youpin.img898.com/csgo/template/03829d0b2800433da88d34171d50428e.png",
+      "price": "¥218",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "M4A1消音版 | 翼蜥 (崭新出厂)",
+      "templateId": "2397",
+      "iconUrl": "https://youpin.img898.com/csgo/template/99c3a8c30b1941a1b330bd89442ca946.png",
+      "price": "¥446",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "加利尔 AR | 深红海啸 (崭新出厂)",
+      "templateId": "201",
+      "iconUrl": "https://youpin.img898.com/csgo/template/920ba397191b41bc9ebadc7ff63fe027.png",
+      "price": "¥132",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AK-47 | 翔鹤 (久经沙场)",
+      "templateId": "121626",
+      "iconUrl": "https://youpin.img898.com/csgo/template/f85aad9dde054e348ac72ae08a7b77e6.png",
+      "price": "¥199.5",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AWP | 树蝰 (崭新出厂)",
+      "templateId": "2230",
+      "iconUrl": "https://youpin.img898.com/csgo/template/146fb830549343eeaf95efd8a1cf87ea.png",
+      "price": "¥364.8",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "Tec-9 | 安全网 (崭新出厂)",
+      "templateId": "61716",
+      "iconUrl": "https://youpin.img898.com/csgo/template/25bb33dad4d44c02b5c818a17a9ac68d.png",
+      "price": "¥171.5",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "AK-47 | 翔鹤 (略有磨损)",
+      "templateId": "121646",
+      "iconUrl": "https://youpin.img898.com/csgo/template/af61ff20e3c347c6a1dd6c6d865ce9d2.png",
+      "price": "¥385.5",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    },
+    {
+      "templateName": "加利尔 AR | 蓝钛 (崭新出厂)",
+      "templateId": "43637",
+      "iconUrl": "https://youpin.img898.com/csgo/template/7c0b9775feba4d208c32e5461f71dfc3.png",
+      "price": "¥142",
+      "leasePrice": null,
+      "increasePercentage": null,
+      "increaseValue": null,
+      "leasePercentage": null
+    }
+  ]
+}
