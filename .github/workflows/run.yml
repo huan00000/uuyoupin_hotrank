@@ -19,6 +19,8 @@ jobs:
         run: touch 数据.json  # 强制创建空文件，保证 git 能识别
       - name: Commit and push
         run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add 数据.json
           git commit -m "更新数据 $(date '+%Y-%m-%d %H:%M:%S')"
           git push
