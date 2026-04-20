@@ -5,6 +5,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 必须开启写权限
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -13,6 +15,8 @@ jobs:
           python-version: '3.13'  # 👈 这里改成 latest 即可
       - name: Install dependencies
         run: pip install requests
+      - name: Pre-create empty file (防漏文件)
+        run: touch 数据.json  # 强制创建空文件，保证 git 能识别
       - name: Commit and push
         run: |
           git add 数据.json
