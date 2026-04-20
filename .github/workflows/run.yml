@@ -17,6 +17,8 @@ jobs:
         run: pip install requests
       - name: Pre-create empty file (防漏文件)
         run: touch 数据.json  # 强制创建空文件，保证 git 能识别
+      - name: Run script
+        run: python get_data.py
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Action"
