@@ -17,15 +17,31 @@ headers = {
 }
 
 url = "https://api.youpin898.com/api/youpin/bff/new/commodity/commodity/hot_list_V3_h5"
-data = json.dumps({
-    "configCode": "transaction_list",
-    "minMarketPrice": 100,
-    "queryTime": 1
-})
 
-response = requests.post(url, headers=headers, data=data)
-data1 = response.json()
-print(data1)
+
+price_list = [100, 1000, 10000]
+
+
+merged_data = {}
+
+
+for price in price_list:
+    print(f"正在获取 ≥ {price} 的数据...")
+    
+    payload = {
+        "configCode": "transaction_list",
+        "minMarketPrice": price,
+        "queryTime": 1
+    }
+    
+    response = requests.post(url, headers=headers, data=json.dumps(payload))
+    result = response.json()
+    
+    
+    merged_data[f"minMarketPrice_{price}"] = result
+
 
 with open("数据.json", "w", encoding="utf-8") as f:
-    json.dump(data1, f, indent=2, ensure_ascii=False)
+    json.dump(merged_data, f, indent=2, ensure_ascii=False)
+
+print("\n✅ 全部数据已合并完成！文件：合并数据.json")
