@@ -13,5 +13,8 @@ jobs:
           python-version: '3.13'  # 👈 这里改成 latest 即可
       - name: Install dependencies
         run: pip install requests
-      - name: Run script
-        run: python hotrank.py
+      - name: Commit and push
+        run: |
+          git add 数据.json
+          git commit -m "更新数据 $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
