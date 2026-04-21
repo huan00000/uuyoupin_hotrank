@@ -18,8 +18,6 @@ jobs:
       - name: Pre-create empty file (防漏文件)
         run: touch 数据.json  # 强制创建空文件，保证 git 能识别
       - name: Run get_data
-        run: python get_data.py
-      - name: Run main
         env:
           # 👇 所有敏感数据从 GitHub Secrets 读取
           UU_DEVICE_TOKEN: ${{ secrets.UU_DEVICE_TOKEN }}
@@ -30,7 +28,8 @@ jobs:
           UU_DEVICE_UK: ${{ secrets.UU_DEVICE_UK }}
           UU_SESSION_ID: ${{ secrets.UU_SESSION_ID }}
           UU_ACW_TC: ${{ secrets.UU_ACW_TC }}
-        run: python main.py
+        run: python get_data.py
+
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Action"
