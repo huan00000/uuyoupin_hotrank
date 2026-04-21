@@ -1,7 +1,7 @@
 import json
 
 # 读取文件（路径与你的文件一致）
-file_path = "uuyoupin_hotrank/inventory.json"
+file_path = "uuyoupin_hotrank/text.json"
 try:
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)

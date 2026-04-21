@@ -69,44 +69,60 @@ INVENTORY_API = "https://api.youpin898.com/api/youpin/commodity-agg/inventory/li
 HOT_API = "https://api.youpin898.com/api/youpin/bff/new/commodity/commodity/hot_list_V3_h5"
 
 # ==============================================
-# 【4】拉取库存（直接拉取，无翻页）
+# 【4】拉取库存（翻页直到 hasNext == false）
 # ==============================================
 def fetch_my_inventory():
-    payload = {
-        "SessionId": SessionId,
-        "RefreshType": 2,
-        "IsMerge": 1,
-        "Version": "5.43.0",
-        "CommodityName": "",
-        "Platform": "ios",
-        "AppType": 3,
-        "AssetStatus": 0,
-        "GameID": "730",
-        "Tags": [],
-        "PageIndex": 1
-    }
+    all_items = []
+    page = 1
+    print("📦 开始拉取库存...")
 
-    try:
-        resp = requests.post(
-            INVENTORY_API,
-            headers=INVENTORY_HEADERS,
-            cookies=COOKIES,
-            data=json.dumps(payload, separators=(',', ':'))
-        )
-        data = resp.json()
-    except Exception as e:
-        print(f"请求失败：{e}")
-        return []
+    while True:
+        payload = {
+            "SessionId": SessionId,
+            "RefreshType": 2,
+            "IsMerge": 1,
+            "Version": "5.43.0",
+            "CommodityName": "",
+            "Platform": "ios",
+            "AppType": 3,
+            "AssetStatus": 0,
+            "GameID": "730",
+            "Tags": [],
+            "PageIndex": page
+        }
 
-    if data.get("Code") != 0:
-        print(f"API 返回错误：{data}")
-        return []
+        try:
+            resp = requests.post(
+                INVENTORY_API,
+                headers=INVENTORY_HEADERS,
+                cookies=COOKIES,
+                data=json.dumps(payload, separators=(',', ':'))
+            )
+            data = resp.json()
+        except Exception as e:
+            print(f"请求失败：{e}")
+            break
 
-    asset_list = data.get("Data", {}).get("ItemsInfos", [])
-    print(f"✅ 库存拉取完成：共 {len(asset_list)} 件")
+        if data.get("Code") != 0:
+            print(f"API 返回错误：{data}")
+            break
+
+        item_list = data.get("Data", {}).get("ItemsInfos", [])
+        if not item_list:
+            break
+
+        all_items.extend(item_list)
+
+        has_next = data.get("Data", {}).get("hasNext", False)
+        if not has_next:
+            break
+
+        page += 1
+
+    print(f"✅ 库存拉取完成：共 {len(all_items)} 件")
     with open("inventory.json", "w", encoding="utf-8") as f:
-        json.dump(asset_list, f, ensure_ascii=False, indent=2)
-    return asset_list
+        json.dump(all_items, f, ensure_ascii=False, indent=2)
+    return all_items
 
 # ==============================================
 # 【5】拉取热销榜（三个有效价位）
