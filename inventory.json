@@ -105,8 +105,8 @@
     "TemplateInfo": {
       "Id": 112975,
       "GameId": 730,
-      "MarkPrice": 1.42,
-      "ShowMarkPrice": "￥1.42",
+      "MarkPrice": 1.44,
+      "ShowMarkPrice": "￥1.44",
       "CommodityName": "创世终端机密封版",
       "CommodityHashName": "Sealed Genesis Terminal",
       "IconUrl": "https://youpin.img898.com/csgo/template/a5395af114d540dda014d9713caf3676.png",
@@ -263,8 +263,8 @@
     "TemplateInfo": {
       "Id": 112993,
       "GameId": 730,
-      "MarkPrice": 0.55,
-      "ShowMarkPrice": "￥0.55",
+      "MarkPrice": 0.56,
+      "ShowMarkPrice": "￥0.56",
       "CommodityName": "P250 | 牛蛙 (破损不堪)",
       "CommodityHashName": "P250 | Bullfrog (Well-Worn)",
       "IconUrl": "https://youpin.img898.com/csgo/template/67553580dafa43db8f13cef100ba5a2a.png",
@@ -741,6 +741,106 @@
     "TradeProtect": 0
   },
   {
+    "SteamAssetId": "50648237860",
+    "AssetAddTime": "2026-03-26 22:39:54",
+    "Tradable": true,
+    "SteamMarketable": true,
+    "ShotName": "Tec-9 | 闪光舞步 (崭新出厂)",
+    "TemplateInfo": {
+      "Id": 44903,
+      "GameId": 730,
+      "MarkPrice": 66.0,
+      "ShowMarkPrice": "￥66",
+      "CommodityName": "Tec-9 | 闪光舞步 (崭新出厂)",
+      "CommodityHashName": "Tec-9 | Flash Out (Factory New)",
+      "IconUrl": "https://youpin.img898.com/csgo/template/3e1ea527fcaa47f2a1cf412a995a41bc.png",
+      "IconUrlLarge": "https://youpin.img898.com/csgo/template/3b95952022184411b7351df5dbbb6d11.png"
+    },
+    "MarketHashName": "Tec-9 | Flash Out (Factory New)",
+    "Tags": [
+      {
+        "Category": "Type",
+        "InternalName": "CSGO_Type_Pistol",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "手枪"
+      },
+      {
+        "Category": "Weapon",
+        "InternalName": "weapon_tec9",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "Tec-9"
+      },
+      {
+        "Category": "ItemSet",
+        "InternalName": "set_community_24",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "反恐精英20周年收藏品"
+      },
+      {
+        "Category": "Rarity",
+        "InternalName": "Rarity_Rare_Weapon",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "军规级",
+        "Color": "#7087FF",
+        "ShortName": "军规"
+      },
+      {
+        "Category": "Exterior",
+        "InternalName": "WearCategory0",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "崭新出厂",
+        "Color": "#58B658",
+        "ShortName": "崭新"
+      }
+    ],
+    "HaveNameTag": 0,
+    "CacheExpiration": "",
+    "Stickers": [],
+    "StickerType": 0,
+    "HasSticker": 0,
+    "AssetInfo": {
+      "PaintSeed": 734,
+      "PaintIndex": 905,
+      "Abrade": 0.02767401561141014,
+      "SpecialPropType": 0
+    },
+    "Analysis2dStatus": 1,
+    "IsCanAnalysis": false,
+    "BanLease": false,
+    "AssetRemark": "",
+    "AssetBuyPrice": "购￥61.80",
+    "HasPrerogative": 1,
+    "VipPrerogative": {
+      "PlatformCommodity": 1,
+      "CurrentRiskStatus": 1,
+      "NormalRate": "0.250000",
+      "DiscountRate": "0.200000",
+      "DiscountedState": 1,
+      "BusinessId": "50648237860",
+      "OrderSubType": 1
+    },
+    "UltraLongLeaseInfo": {
+      "PlatformCommodity": 1,
+      "CurrentRiskStatus": 1,
+      "NormalRate": "0.250000",
+      "DiscountRate": "0.200000",
+      "DiscountedState": 1,
+      "BusinessId": "50648237860",
+      "OrderSubType": 2
+    },
+    "PrerogativeInfo": [
+      "1、饰品采购自有品，租赁服务费8折（原押金保障费）"
+    ],
+    "IsMerge": 1,
+    "AssetMergeCount": 1,
+    "AssetStatus": 0,
+    "CSInspectionVersion": 2,
+    "AssetTagColor": "",
+    "HasPendant": 0,
+    "SourceType": 0,
+    "TradeProtect": 0
+  },
+  {
     "SteamAssetId": "50643988319",
     "AssetAddTime": "2026-03-26 19:17:33",
     "Tradable": true,
@@ -845,8 +945,8 @@
     "TemplateInfo": {
       "Id": 103158,
       "GameId": 730,
-      "MarkPrice": 2.22,
-      "ShowMarkPrice": "￥2.22",
+      "MarkPrice": 2.24,
+      "ShowMarkPrice": "￥2.24",
       "CommodityName": "变革武器箱",
       "CommodityHashName": "Revolution Case",
       "IconUrl": "https://youpin.img898.com/csgo/template/fbd18a8613f84711bd74d62c9a05543e.png",
@@ -1004,8 +1104,8 @@
     "TemplateInfo": {
       "Id": 101422,
       "GameId": 730,
-      "MarkPrice": 9.8,
-      "ShowMarkPrice": "￥9.8",
+      "MarkPrice": 9.87,
+      "ShowMarkPrice": "￥9.87",
       "CommodityName": "梦魇武器箱",
       "CommodityHashName": "Dreams & Nightmares Case",
       "IconUrl": "https://youpin.img898.com/csgo/template/d68a7e899f934db78dedb4e0b9c62ea2.png",
@@ -1066,8 +1166,8 @@
     "TemplateInfo": {
       "Id": 8506,
       "GameId": 730,
-      "MarkPrice": 84.9,
-      "ShowMarkPrice": "￥84.9",
+      "MarkPrice": 84.8,
+      "ShowMarkPrice": "￥84.8",
       "CommodityName": "德拉戈米尔 | 军刀勇士",
       "CommodityHashName": "Dragomir | Sabre Footsoldier",
       "IconUrl": "https://youpin.img898.com/csgo/template/9437a6bca0c74ac2987427c4cb11333c.png",
@@ -1263,8 +1363,8 @@
     "TemplateInfo": {
       "Id": 44360,
       "GameId": 730,
-      "MarkPrice": 195.0,
-      "ShowMarkPrice": "￥195",
+      "MarkPrice": 194.8,
+      "ShowMarkPrice": "￥194.8",
       "CommodityName": "指挥官 梅 “极寒” 贾米森 | 特警",
       "CommodityHashName": "Cmdr. Mae 'Dead Cold' Jamison | SWAT",
       "IconUrl": "https://youpin.img898.com/csgo/template/8354b7cd8fea4891aa3776f257d6318e.png",
@@ -1413,8 +1513,8 @@
     "TemplateInfo": {
       "Id": 421,
       "GameId": 730,
-      "MarkPrice": 87.0,
-      "ShowMarkPrice": "￥87",
+      "MarkPrice": 86.9,
+      "ShowMarkPrice": "￥86.9",
       "CommodityName": "准备就绪的列赞 | 军刀",
       "CommodityHashName": "Rezan The Ready | Sabre",
       "IconUrl": "https://youpin.img898.com/csgo/template/3ae42191e3374a4fb6729835e32795f4.png",
@@ -1596,8 +1696,8 @@
     "TemplateInfo": {
       "Id": 120614,
       "GameId": 730,
-      "MarkPrice": 0.06,
-      "ShowMarkPrice": "￥0.06",
+      "MarkPrice": 0.1,
+      "ShowMarkPrice": "￥0.1",
       "CommodityName": "CZ75自动型 | 蜜金佩斯利 (略有磨损)",
       "CommodityHashName": "CZ75-Auto | Honey Paisley (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/e2d383c9123644e3af3cf50e8314ea45.png",
@@ -1693,8 +1793,8 @@
     "TemplateInfo": {
       "Id": 110921,
       "GameId": 730,
-      "MarkPrice": 0.87,
-      "ShowMarkPrice": "￥0.87",
+      "MarkPrice": 0.88,
+      "ShowMarkPrice": "￥0.88",
       "CommodityName": "R8 左轮手枪 | 钴蓝握把 (崭新出厂)",
       "CommodityHashName": "R8 Revolver | Cobalt Grip (Factory New)",
       "IconUrl": "https://youpin.img898.com/csgo/template/faf2cc01fb8940e0a96ce19ba6791a73.png",
@@ -1782,6 +1882,76 @@
     "TradeProtect": 0
   },
   {
+    "SteamAssetId": "49692444921",
+    "AssetAddTime": "2026-02-15 11:07:28",
+    "Tradable": true,
+    "SteamMarketable": true,
+    "ShotName": "印花 | FlyQuest（全息）| 2024年上海锦标赛",
+    "TemplateInfo": {
+      "Id": 110444,
+      "GameId": 730,
+      "MarkPrice": 332.83,
+      "ShowMarkPrice": "￥332.83",
+      "CommodityName": "印花 | FlyQuest（全息）| 2024年上海锦标赛",
+      "CommodityHashName": "Sticker | FlyQuest (Holo) | Shanghai 2024",
+      "IconUrl": "https://youpin.img898.com/csgo/template/c4c8bc4875714a7ba6e8987873130e74.png",
+      "IconUrlLarge": "https://youpin.img898.com/csgo/template/cc055652ced147d7ae7eee8f3474c736.png"
+    },
+    "MarketHashName": "Sticker | FlyQuest (Holo) | Shanghai 2024",
+    "Tags": [
+      {
+        "Category": "Type",
+        "InternalName": "CSGO_Tool_Sticker",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "印花"
+      },
+      {
+        "Category": "Rarity",
+        "InternalName": "Rarity_Legendary",
+        "LocalizedCategoryName": "",
+        "LocalizedTagName": "奇异",
+        "Color": "#D32CE6",
+        "ShortName": "奇异"
+      },
+      {
+        "Category": "Exterior",
+        "InternalName": "",
+        "LocalizedCategoryName": "外观",
+        "LocalizedTagName": "全息",
+        "Color": "FF7AA5",
+        "ShortName": "全息"
+      }
+    ],
+    "HaveNameTag": 0,
+    "CacheExpiration": "",
+    "Stickers": [],
+    "StickerType": 0,
+    "HasSticker": 0,
+    "AssetInfo": {
+      "SpecialPropType": 0
+    },
+    "Analysis2dStatus": 1,
+    "IsCanAnalysis": false,
+    "BanLease": true,
+    "AssetRemark": "",
+    "AssetBuyPrice": "购￥449.99",
+    "HasPrerogative": 0,
+    "IsMerge": 1,
+    "AssetMergeCount": 2,
+    "AssetStatus": 0,
+    "CSInspectionVersion": 2,
+    "AssetTagColor": "",
+    "HasPendant": 0,
+    "SourceType": 0,
+    "TradeProtect": 0,
+    "AssetDataList": [
+      {
+        "SteamAssetId": "49673117924",
+        "AssetStatus": 0
+      }
+    ]
+  },
+  {
     "SteamAssetId": "49675752809",
     "AssetAddTime": "2026-02-14 15:43:12",
     "Tradable": true,
@@ -1790,8 +1960,8 @@
     "TemplateInfo": {
       "Id": 61401,
       "GameId": 730,
-      "MarkPrice": 1240.0,
-      "ShowMarkPrice": "￥1240",
+      "MarkPrice": 1246.0,
+      "ShowMarkPrice": "￥1246",
       "CommodityName": "AK-47 | 抽象派 1337 (久经沙场)",
       "CommodityHashName": "AK-47 | Leet Museo (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/dc1fad026c824b3994a7ecd74107972e.png",
@@ -2344,8 +2514,8 @@
     "TemplateInfo": {
       "Id": 6,
       "GameId": 730,
-      "MarkPrice": 0.03,
-      "ShowMarkPrice": "￥0.03",
+      "MarkPrice": 0.07,
+      "ShowMarkPrice": "￥0.07",
       "CommodityName": "新星 | 芯轴 (久经沙场)",
       "CommodityHashName": "Nova | Mandrel (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/c150a8e8ff9540fa95b348f1c6bc14d6.png",
@@ -2635,8 +2805,8 @@
     "TemplateInfo": {
       "Id": 101544,
       "GameId": 730,
-      "MarkPrice": 932.0,
-      "ShowMarkPrice": "￥932",
+      "MarkPrice": 931.0,
+      "ShowMarkPrice": "￥931",
       "CommodityName": "AK-47 | 夜愿 (崭新出厂)",
       "CommodityHashName": "AK-47 | Nightwish (Factory New)",
       "IconUrl": "https://youpin.img898.com/csgo/template/8107991a5e1f4e35a555255fb9aefa56.png",
@@ -2734,8 +2904,8 @@
     "TemplateInfo": {
       "Id": 110952,
       "GameId": 730,
-      "MarkPrice": 0.06,
-      "ShowMarkPrice": "￥0.06",
+      "MarkPrice": 0.07,
+      "ShowMarkPrice": "￥0.07",
       "CommodityName": "MP9 | 松 (略有磨损)",
       "CommodityHashName": "MP9 | Pine (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/dbfb7753ec5e46f1841304531e1b1510.png",
@@ -2900,8 +3070,8 @@
     "TemplateInfo": {
       "Id": 1141,
       "GameId": 730,
-      "MarkPrice": 0.08,
-      "ShowMarkPrice": "￥0.08",
+      "MarkPrice": 0.07,
+      "ShowMarkPrice": "￥0.07",
       "CommodityName": "AUG | 扫频仪 (久经沙场)",
       "CommodityHashName": "AUG | Sweeper (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/617171d23d35477e8c9d98140a2c7b80.png",
@@ -3094,8 +3264,8 @@
     "TemplateInfo": {
       "Id": 471,
       "GameId": 730,
-      "MarkPrice": 0.05,
-      "ShowMarkPrice": "￥0.05",
+      "MarkPrice": 0.03,
+      "ShowMarkPrice": "￥0.03",
       "CommodityName": "新星 | 捕食者 (久经沙场)",
       "CommodityHashName": "Nova | Predator (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/c8094244f45b49c0bd13389ae8178577.png",
@@ -3301,8 +3471,8 @@
     "TemplateInfo": {
       "Id": 110158,
       "GameId": 730,
-      "MarkPrice": 69.3,
-      "ShowMarkPrice": "￥69.3",
+      "MarkPrice": 65.0,
+      "ShowMarkPrice": "￥65",
       "CommodityName": "印花 | Passion UA（全息）| 2024年上海锦标赛",
       "CommodityHashName": "Sticker | Passion UA (Holo) | Shanghai 2024",
       "IconUrl": "https://youpin.img898.com/csgo/template/057bb9f96448430c8824cfda5e1a28f0.png",
@@ -3519,8 +3689,8 @@
     "TemplateInfo": {
       "Id": 112186,
       "GameId": 730,
-      "MarkPrice": 26.58,
-      "ShowMarkPrice": "￥26.58",
+      "MarkPrice": 26.48,
+      "ShowMarkPrice": "￥26.48",
       "CommodityName": "印花 | NRG（全息）| 2025年奥斯汀锦标赛",
       "CommodityHashName": "Sticker | NRG (Holo) | Austin 2025",
       "IconUrl": "https://youpin.img898.com/csgo/template/82df4a01cd17413793cb2770bd3aacb1.png",
@@ -3777,8 +3947,8 @@
     "TemplateInfo": {
       "Id": 5880,
       "GameId": 730,
-      "MarkPrice": 0.03,
-      "ShowMarkPrice": "￥0.03",
+      "MarkPrice": 0.05,
+      "ShowMarkPrice": "￥0.05",
       "CommodityName": "FN57 | 冷却剂 (久经沙场)",
       "CommodityHashName": "Five-SeveN | Coolant (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/de2c40720ef640b7b90f1c44a2056f5e.png",
@@ -3938,8 +4108,8 @@
     "TemplateInfo": {
       "Id": 112944,
       "GameId": 730,
-      "MarkPrice": 112.28,
-      "ShowMarkPrice": "￥112.28",
+      "MarkPrice": 112.78,
+      "ShowMarkPrice": "￥112.78",
       "CommodityName": "音乐盒 | Killer Mike，迈克尔",
       "CommodityHashName": "Music Kit | Killer Mike, MICHAEL",
       "IconUrl": "https://youpin.img898.com/csgo/template/cc593259e1374d0f82ae985e0603ae9a.png",
@@ -4210,8 +4380,8 @@
     "TemplateInfo": {
       "Id": 260,
       "GameId": 730,
-      "MarkPrice": 0.36,
-      "ShowMarkPrice": "￥0.36",
+      "MarkPrice": 0.37,
+      "ShowMarkPrice": "￥0.37",
       "CommodityName": "G3SG1 | 多变迷彩 (略有磨损)",
       "CommodityHashName": "G3SG1 | VariCamo (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/d854bb1d261e4682a82670c92d614a37.png",
@@ -4597,8 +4767,8 @@
     "TemplateInfo": {
       "Id": 1957,
       "GameId": 730,
-      "MarkPrice": 1.45,
-      "ShowMarkPrice": "￥1.45",
+      "MarkPrice": 1.44,
+      "ShowMarkPrice": "￥1.44",
       "CommodityName": "MAC-10 | 小牛皮 (略有磨损)",
       "CommodityHashName": "MAC-10 | Calf Skin (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/3ea55c37a0c5492abfcadae774615d3e.png",
@@ -4886,8 +5056,8 @@
     "TemplateInfo": {
       "Id": 110971,
       "GameId": 730,
-      "MarkPrice": 0.05,
-      "ShowMarkPrice": "￥0.05",
+      "MarkPrice": 0.07,
+      "ShowMarkPrice": "￥0.07",
       "CommodityName": "SSG 08 | 灰色烟幕 (略有磨损)",
       "CommodityHashName": "SSG 08 | Grey Smoke (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/9bda18e700574e2ea970de74b984a3ec.png",
@@ -5513,8 +5683,8 @@
     "TemplateInfo": {
       "Id": 108900,
       "GameId": 730,
-      "MarkPrice": 0.03,
-      "ShowMarkPrice": "￥0.03",
+      "MarkPrice": 0.05,
+      "ShowMarkPrice": "￥0.05",
       "CommodityName": "印花 | frozen | 2024年哥本哈根锦标赛",
       "CommodityHashName": "Sticker | frozen | Copenhagen 2024",
       "IconUrl": "https://youpin.img898.com/csgo/template/0d9029012e514efb93a5c66139dcb1e5.png",
@@ -5599,8 +5769,8 @@
     "TemplateInfo": {
       "Id": 109008,
       "GameId": 730,
-      "MarkPrice": 0.03,
-      "ShowMarkPrice": "￥0.03",
+      "MarkPrice": 0.04,
+      "ShowMarkPrice": "￥0.04",
       "CommodityName": "印花 | xertioN | 2024年哥本哈根锦标赛",
       "CommodityHashName": "Sticker | xertioN | Copenhagen 2024",
       "IconUrl": "https://youpin.img898.com/csgo/template/a0c384d5bfa24139a1cf1b821cb7dca8.png",
@@ -6209,8 +6379,8 @@
     "TemplateInfo": {
       "Id": 110831,
       "GameId": 730,
-      "MarkPrice": 0.09,
-      "ShowMarkPrice": "￥0.09",
+      "MarkPrice": 0.1,
+      "ShowMarkPrice": "￥0.1",
       "CommodityName": "MP9 | 褪色蓝痕 (略有磨损)",
       "CommodityHashName": "MP9 | Buff Blue (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/fb8b1a5923044653b56d6c14f7657813.png",
@@ -6403,8 +6573,8 @@
     "TemplateInfo": {
       "Id": 3312,
       "GameId": 730,
-      "MarkPrice": 0.35,
-      "ShowMarkPrice": "￥0.35",
+      "MarkPrice": 0.36,
+      "ShowMarkPrice": "￥0.36",
       "CommodityName": "P250 | 沙丘之黄 (略有磨损)",
       "CommodityHashName": "P250 | Sand Dune (Minimal Wear)",
       "IconUrl": "https://youpin.img898.com/csgo/template/461d75855a5f41ca92e111469fbeeccc.png",
@@ -6694,8 +6864,8 @@
     "TemplateInfo": {
       "Id": 103157,
       "GameId": 730,
-      "MarkPrice": 0.48,
-      "ShowMarkPrice": "￥0.48",
+      "MarkPrice": 0.46,
+      "ShowMarkPrice": "￥0.46",
       "CommodityName": "SCAR-20 | 碎片 (久经沙场)",
       "CommodityHashName": "SCAR-20 | Fragments (Field-Tested)",
       "IconUrl": "https://youpin.img898.com/csgo/template/6e8de81b4fb646f7adce7d0c441ba92e.png",
@@ -7831,8 +8001,8 @@
     "TemplateInfo": {
       "Id": 102821,
       "GameId": 730,
-      "MarkPrice": 1.12,
-      "ShowMarkPrice": "￥1.12",
+      "MarkPrice": 1.1,
+      "ShowMarkPrice": "￥1.1",
       "CommodityName": "印花 | sinnopsyy | 2022年里约热内卢锦标赛",
       "CommodityHashName": "Sticker | sinnopsyy | Rio 2022",
       "IconUrl": "https://youpin.img898.com/csgo/template/0aa3f2c0d18447b9a088ce863cb510fc.png",
@@ -7901,8 +8071,8 @@
     "TemplateInfo": {
       "Id": 102720,
       "GameId": 730,
-      "MarkPrice": 0.71,
-      "ShowMarkPrice": "￥0.71",
+      "MarkPrice": 0.91,
+      "ShowMarkPrice": "￥0.91",
       "CommodityName": "印花 | syrsoN | 2022年里约热内卢锦标赛",
       "CommodityHashName": "Sticker | syrsoN | Rio 2022",
       "IconUrl": "https://youpin.img898.com/csgo/template/970d4af0bc4141889dd7a3b999d1cec7.png",
