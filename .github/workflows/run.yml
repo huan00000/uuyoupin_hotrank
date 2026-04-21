@@ -1,25 +1,26 @@
 name: Run Script
 on:
+  schedule:
+    - cron: '0 1 * * *'  # 每天 UTC 01:00 = 北京 09:00
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 必须开启写权限
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'  # 👈 这里改成 latest 即可
+          python-version: '3.13'
       - name: Install dependencies
         run: pip install requests
       - name: Pre-create empty file (防漏文件)
-        run: touch 数据.json  # 强制创建空文件，保证 git 能识别
+        run: touch 数据.json
       - name: Run get_data
         env:
-          # 👇 所有敏感数据从 GitHub Secrets 读取
           UU_DEVICE_TOKEN: ${{ secrets.UU_DEVICE_TOKEN }}
           UU_SIGNATURE: ${{ secrets.UU_SIGNATURE }}
           UU_REQUESTTAG: ${{ secrets.UU_REQUESTTAG }}
@@ -39,3 +40,33 @@ jobs:
           git add match_result.json
           git commit -m "更新数据 $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+
+      - name: Read match result
+        id: read-summary
+        run: |
+          if [ -f match_result.json ]; then
+            SUMMARY=$(python3 -c "import json; d=json.load(open('match_result.json')); print(d.get('summary',''))")
+            if [ -n "$SUMMARY" ]; then
+              echo "content<<EOF" >> $GITHUB_OUTPUT
+              echo "$SUMMARY" >> $GITHUB_OUTPUT
+              echo "EOF" >> $GITHUB_OUTPUT
+              echo "has_data=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_data=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "has_data=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send email if matched
+        if: steps.read-summary.outputs.has_data == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.GMAIL_USERNAME }}
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
+          subject: "Price Change Alert - ${{ github.run_started_at }}"
+          body: ${{ steps.read-summary.outputs.content }}
+          to: ${{ secrets.GMAIL_USERNAME }}
+          from: GitHub Action

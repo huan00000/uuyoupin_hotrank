@@ -190,18 +190,25 @@ if __name__ == "__main__":
     # 3. 输出结果
     print_matched(result)
 
-    # 4. 保存最终结果
+    # 4. 保存最终结果（只保留 summary，格式：商品名:价格）
+    if result:
+        lines = [f"{item.get('templateName', '未知')}:{item.get('price', '无价格')}" for item in result]
+        summary = "\n".join(lines)
+    else:
+        summary = ""
+
     output = {
-        "inventory_count": len(inventory),
-        "hot_count": len(hot_items),
         "match_count": len(result),
-        "match_list": result
+        "summary": summary
     }
 
     with open("match_result.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print("✅ 全部完成！文件已保存：")
-    print("   - inventory.json      你的全部库存")
-    print("   - hot_list.json       平台热销榜")
-    print("   - match_result.json   匹配结果（可直接上架）")
+    if result:
+        print("✅ 全部完成！文件已保存：")
+        print("   - inventory.json      你的全部库存")
+        print("   - hot_list.json       平台热销榜")
+        print("   - match_result.json   匹配结果（可直接上架）")
+    else:
+        print("📭 无匹配商品，match_result.json 已保存为空。")
