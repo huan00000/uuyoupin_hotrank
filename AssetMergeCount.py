@@ -1,7 +1,7 @@
 import json
 
 # 读取文件（路径与你的文件一致）
-file_path = "uuyoupin_hotrank/text.json"
+file_path = "uuyoupin_hotrank/inventory.json"
 try:
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -21,6 +21,7 @@ try:
     # 输出结果
     print(f"\n有效AssetMergeCount项数：{valid_count}")
     print(f"AssetMergeCount值总和：{total}")
+    input('1:')
 
 except FileNotFoundError:
     print(f"错误：未找到文件 {file_path}")
